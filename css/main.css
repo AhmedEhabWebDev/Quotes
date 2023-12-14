@@ -1,0 +1,37 @@
+div.main {
+  background-image: linear-gradient(rgba(0 , 0 , 0 , 0.6) , rgba(0 , 0 , 0 , 0.6)) , url(../images/wallpaperflare.com_wallpaper\ \(6\).jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+div.main div{
+  background: #ffffff00;
+  backdrop-filter: blur(31px);
+  font-family: 'Kalnia', serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+button {
+  background-color: inherit;
+  color: #ffffff;
+  border: 2px solid #a2b4d8;
+  transition: background-color 0.5s;
+}
+
+button:hover {
+  background-color: #a2b4d8;
+}
+
+p {
+  font-size: 38px;
+}
+
+#authorOutput ,
+#quoteOutput {
+  font-weight: 200;
+  font-family: 'Dancing Script', cursive;
+}
